@@ -3,9 +3,11 @@
 int main ()
 {
   char c = 'a';
-  for (int i = 0; i < 26; i++)
+  int i = 0;
+  for (; i < 26;)
     {
       putchar (c + i);
+      i++ ;
     }
   printf("\n");
   return 0;
